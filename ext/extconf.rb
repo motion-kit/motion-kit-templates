@@ -11,3 +11,8 @@ template_dirs.each do |template|
 
   FileUtils.ln_s src, dest_dir, :force => true
 end
+
+
+# have to create an empty Makefile or `gem install` complains
+require 'mkmf'
+create_makefile('')
