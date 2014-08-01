@@ -14,7 +14,6 @@ class MainWindowLayout < MK::WindowLayout
     center ['50%', '50%']
     autoresizing_mask :pin_to_center
     background_color NSColor.clearColor
-    opaque false
 
     editable false
     selectable true
