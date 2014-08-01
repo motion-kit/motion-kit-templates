@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
 
   gem.authors = ['Colin T.A. Gray']
   gem.email   = ['colinta@gmail.com']
-  gem.summary     = %{Create projects with the `motion create --template=motion-kit-...` command.}
-  gem.description = ''
+  gem.summary     = %{Create projects with the `motion create --template=mk-...` command.}
+  gem.description = 'The templates provided are "mk-ios" and "mk-osx".'
 
   gem.homepage    = 'https://github.com/rubymotion/motion-kit-templates'
   gem.extensions    = ['ext/extconf.rb']
